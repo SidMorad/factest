@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "watch": "run-when-changed --watch '../projectX/target/**/*.class' --exec 'sh organic.sh'"
+  },
+  "devDependencies": {
+    "run-when-changed": "^2.1.0"
+  }
+}
